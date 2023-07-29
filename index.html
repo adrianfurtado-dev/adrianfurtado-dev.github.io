@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    </script>
+    <title>Adrián Furtado</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#home" class="menu-link">HOME</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#about" class="menu-link">ABOUT ME</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#education" class="menu-link">EDUCATION</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#projects" class="menu-link">PROJECTS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" class="menu-link">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="home" class="fullscreen">
+            <h1 id="name">Adrián Furtado</h1>
+            <h2 id="fullstack">Fullstack web developer.</h2>
+            <div class="social-group">
+                <a href="https://github.com/adrianfurtado-dev" target="_blank" class="social-img_container"><img src="img/github-icon.png" alt="GitHub account" class="social-img"></a>
+                <a href="https://www.linkedin.com/in/adrianfurtado/" target="_blank" class="social-img_container"><img src="img/in-icon.png" alt="LinkedIn account" class="social-img"></a>
+            </div>
+        </section>
+        <section id="about" class="fullscreen">
+            <h2 id="about-title">ABOUT ME</h2>
+            <div id="about-me">
+                <p>
+                    Soy Adrián Furtado, tengo 18 años, actualmente curso
+                    el último año del bachillerato de Informática y, me encuentro en la búsqueda
+                    de mi primera experiencia laboral en el rubro.
+                </p>
+                <p>
+                    Desde una temprana edad me ha apasionado la tecnología y el desarrollo de
+                    software. Me considero un estudiante autodidacta y con facilidad por aprender lo que me apasiona.
+                </p>
+                <p>
+                    Los estudios me han ido permitiendo trabajar en equipo, demostrando la capacidad de adaptarme
+                    a cualquier situación y buscando la forma de resolver problemas complejos. Últimamente adquirí
+                    un gusto por la enseñanza y he demostrado cierta habilidad gracias al curso 'Jóvenes a Programar'.
+                </p>
+            </div>
+        </section>
+        <section id="education" class="fullscreen">
+            <h2 id="education-title">EDUCATION</h2>
+            <div class="school-group">
+                <div class="school">
+                    <div class="school-details">
+                        <h2>Instituto Tecnológico Superior "Arias Balparda" / Informática</h2>
+                        <span class="school-time">Marzo 2021 - Presente</span>
+                    </div>
+                </div>
+                <div class="school">
+                    <div class="school-details">
+                        <h2>Jóvenes a Programar / Desarrollo Web</h2>
+                        <span class="school-time">Marzo 2023 - Presente</span>
+                    </div>
+                </div>
+                <div class="school">
+                    <div class="school-details">
+                        <h2>Platzi / Data Science e Inteligencia Artificial</h2>
+                        <span class="school-time">Julio 2023 - Presente</span>
+                    </div>
+                </div>
+                <div class="school">
+                    <div class="school-details">
+                        <h2>Centro de Lenguas Extranjeras / Portugués Intermedio</h2>
+                        <span class="school-time">Marzo 2018 - Diciembre 2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="fullscreen">
+            <h2>PROJECTS</h2>
+            <div class="project-container">
+                <div class="card">
+                    <a href="https://tic-tac-toe-adrianfurtado.netlify.app/" target="_blank" class="project-link">Tic-Tac-Toe</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="fullscreen">
+            <h2>CONTACT</h2>
+            <div class="form-container">
+                <form method="post" class="form">
+                    <div class="form-group">
+                        <label for="name" class="label">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="input" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname" class="label">Apellido</label>
+                        <input type="text" name="surname" id="surname" class="input" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="label">Email</label>
+                        <input type="email" name="email" id="email" class="input" autocomplete="off" required>
+                    </div>
+                    <div class="form-group msj-group">
+                        <label for="msj">Mensaje</label>
+                        <textarea name="msj" id="msj" rows="10" maxlength="300" class="textarea" autocomplete="off" required></textarea>
+                    </div>
+                    <button type="submit" id="contact-btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
